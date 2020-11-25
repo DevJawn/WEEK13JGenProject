@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
@@ -102,3 +103,6 @@ _TODO: Answer the following questions to fill in the blanks:_
 - _Which URL do you navigate to in order to check that the ELK server is running? [http://13.64.194.116:5601/app/kibana#/home]
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+=======
+# WEEK13JGenProject
+>>>>>>> 26e45869250c81d6ffeb61da7d831eeacb6a66a0
