@@ -7,7 +7,7 @@ The files in this repository were used to configure the network depicted below.
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the [install-elk.yml] file may be used to install only certain pieces of it, such as Filebeat.
 
   - [ansible/ELK/install-elk.yml]
----
+{---
 - name: Configure Elk VM with Docker
   hosts: elk
   become: True
@@ -57,8 +57,8 @@ These files have been tested and used to generate a live ELK deployment on Azure
           -  5601:5601
           -  9200:9200
           -  5044:5044
-
-
+"
+}
 This document contains the following details:
 - Description of the Topology
 - Access Policies
@@ -166,12 +166,12 @@ These Beats allow us to collect the following information from each machine:
 # Filebeat: 
 Filebeat monitors the log files or locations that you specify, such as Syslogs, visualized by Kibana below.
 
-![filebeat.png](ScreenShots/filebeat.png)
+![filebeat.png](ScreenShots/filebeat.PNG)
 
 # Metricbeat: 
 Metricbeat monitors the metrics and statistics of the operating system, such as CPU usage, visualized by Kibana below.
 
-![metricbeat.png](ScreenShots/metric.png)
+![metricbeat.png](ScreenShots/metric.PNG)
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
