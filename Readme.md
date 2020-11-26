@@ -75,8 +75,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly available, in addition to restricting traffic to the network.
 - What aspect of security do load balancers protect? What is the advantage of a jump box? 
-# Answer:
- As the we beging to progress into cloud computing. The off-loading function of a load balancer defends an organization against DDOS[Denial-of-service] attacks. The load balancer shift the attacking traffice from the corporate server to a public cloud provider.
+ - As the we beging to progress into cloud computing. The off-loading function of a load balancer defends an organization against DDOS[Denial-of-service] attacks. The load balancer shift the attacking traffice from the corporate server to a public cloud provider.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the network and system resources.
 - What does Filebeat watch for? 
@@ -146,7 +145,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](ScreenShots/dockerps.jpg)
+![TODO: Update the path with the name of your screenshot of docker ps output](ScreenShots/Dockerps.jpg)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
